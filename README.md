@@ -78,3 +78,12 @@ Normal sudoku constraints apply for placing numbers to the empty squares:
 705930240 
 
 300502010
+
+# Compile and run
+Use terminal to compile and run this code. Use these commands. Files and input files must be in same directory.
+
+gcc -o minimax minimax.cpp
+
+./minimax input_file_name
+
+gcc -o alpha_beta alpha_beta.cpp ./alpha_beta input_file_name
